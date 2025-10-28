@@ -8,7 +8,7 @@
 	<element name="Hotels">
 		<complexType>
 			<sequence>
-				<element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+				<element name="Hotel" type="string" minOccurs="1" maxOccurs="unbounded"/>
 			</sequence>
 		</complexType>
 	</element>
