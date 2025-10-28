@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema id="Hotels"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<element name="Hotels">
+		<complexType>
+			<sequence>
+				<element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="Hotel">
+		<complexType>
+			<sequence>
+				<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+				<element name="Address" minOccurs="1" maxOccurs="1"/>								
+			</sequence>
+			<attribute name="Rating" type="xsd:string" use="optional"/>
+		</complexType>
+	</element>
+	<element name="Address">
+		<complexType>
+			<sequence>
+				<element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>				
+			</sequence>
+			<attribute name="NearestAirport" type="xsd:string" use="required"/>
+		</complexType>		
+	</element>
+</schema>
