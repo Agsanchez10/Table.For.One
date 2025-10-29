@@ -18,9 +18,9 @@
 			<sequence>
 				<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-				<element name="Address" minOccurs="1" maxOccurs="1"/>								
+				<element name="Address" minOccurs="1" maxOccurs="1"/>
+				<element name="_Rating" type="xsd:string" minOccurs="0" maxOccurs="1"/>
 			</sequence>
-			<attribute name="Rating" type="xsd:string" use="optional"/>
 		</complexType>
 	</element>
 	<element name="Address">
@@ -30,9 +30,9 @@
 				<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>				
+				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="_NearestAirport" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 			</sequence>
-			<attribute name="NearestAirport" type="xsd:string" use="required"/>
 		</complexType>		
 	</element>
 </schema>
