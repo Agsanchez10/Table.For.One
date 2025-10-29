@@ -2,7 +2,7 @@
 <schema id="Hotels"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://agsanchez10.github.io/Table.For.One/"
-	xmlns:bs="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
+	xmlns="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
     elementFormDefault="qualified"
 	attributeFormDefault="unqualified">
 	<element name="Hotels">
