@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <schema id="Hotels"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://agsanchez10.github.io/Table.For.One/"
-	xmlns="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
+	xmlns:bs="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
     elementFormDefault="qualified"
 	attributeFormDefault="unqualified">
 	<element name="Hotels">
@@ -31,7 +31,7 @@
 				<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>				
 			</sequence>
-			<attribute name="NearestAirport" type="xsd:string" use="required"/>
+			<attribute name="NearestAirport" type="string" use="required"/>
 		</complexType>		
 	</element>
 </schema>
