@@ -9,7 +9,7 @@
 	<element name="Hotels">
 		<complexType>
 			<sequence>
-				<element name="Hotel" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+				<element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
 			</sequence>
 		</complexType>
 	</element>
