@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <schema id="Hotels"
-	xmlns="http://www.w3.org/2001/XMLSchema"
-		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.w3.org/2001/XMLSchema"		
     targetNamespace="https://agsanchez10.github.io/Table.For.One/"
 	xmlns:bs="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
     elementFormDefault="qualified"
