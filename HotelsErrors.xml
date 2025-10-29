@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<Hotels xmlns="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
+<Hotels xmlns="https://agsanchez10.github.io/Table.For.One/"
 		xmlns:bs="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://agsanchez10.github.io/Table.For.One/Hotels.xsd">
@@ -153,6 +153,7 @@
 		</Address>
 		<Rating>4.2</Rating>
 	</Hotel>
+
 
 
 
