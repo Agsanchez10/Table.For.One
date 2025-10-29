@@ -5,7 +5,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://agsanchez10.github.io/Table.For.One/Hotels.xsd">
 
-	<Hotel>
+	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
@@ -15,11 +15,10 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>			
-		</Address>
-		<Rating>4.2</Rating>
+		</Address>		
 	</Hotel>
 
-	<Hotel>
+	<Hotel Rating="4.7">
 		<Name>Hilton North Scottsdale at Cavasson</Name>
 		<Phone>480-648-1500</Phone>
 		<Address NearestAirport="Scottsdale Airport">
@@ -29,7 +28,6 @@
 			<State>AZ</State>
 			<Zip>85255</Zip>
 		</Address>
-		<Rating>4.7</Rating>
 	</Hotel>
 
 	<Hotel>
@@ -56,7 +54,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel>
+	<Hotel Rating="4.4">
 		<Name>Hampton Inn Queen Creek</Name>
 		<Phone>480-888-7474</Phone>
 		<Address NearestAirport="Mesa Gateway Airport">
@@ -66,7 +64,6 @@
 			<State>AZ</State>
 			<Zip>85142</Zip>			
 		</Address>
-		<Rating>4.4</Rating>
 	</Hotel>
 
 	<Hotel>
@@ -93,7 +90,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel>
+	<Hotel Rating="4.5">
 		<Name>Purgatory Resort</Name>
 		<Phone>970-247-9000</Phone>
 		<Address NearestAirport="Durango-La Plata County Airport">
@@ -103,7 +100,6 @@
 			<State>CO</State>
 			<Zip>81301</Zip>
 		</Address>
-		<Rating>4.5</Rating>
 	</Hotel>
 
 	<Hotel>
@@ -118,7 +114,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel>
+	<Hotel Rating="4.2">
 		<Name>Embassy Suites by Hilton Salt Lake West Valley City</Name>
 		<Phone>801-963-4760</Phone>
 		<Address NearestAirport="Salt Lake City International Airport">
@@ -128,10 +124,9 @@
 			<State>UT</State>
 			<Zip>84119</Zip>
 		</Address>
-		<Rating>4.2</Rating>
 	</Hotel>
 
-	<Hotel>
+	<Hotel Rating="4.2">
 		<Name>Hilton Vacation Club Cedar Breaks Brian Head</Name>
 		<Phone>435-677-3000</Phone>
 		<Address NearestAirport="Parowan Airport">
@@ -141,7 +136,6 @@
 			<State>UT</State>
 			<Zip>84719</Zip>
 		</Address>
-		<Rating>4.2</Rating>
 	</Hotel>
 
 
