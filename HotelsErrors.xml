@@ -113,7 +113,8 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>Salt Lake Marriott Downtown at City Creek</Name>
+		<Name>Salt Lake Marriott</Name>
+		<Name>Downtown at City Creek</Name>
 		<Phone>801-531-0800</Phone>
 		<Address>
 			<Number>75</Number>
@@ -121,7 +122,8 @@
 			<City>Salt Lake City</City>
 			<State>UT</State>
 			<Zip>84101</Zip>
-			<NearestAirport>Salt Lake City International Airport</NearestAirport>		
+			<NearestAirport>Salt Lake City International Airport</NearestAirport>
+		</Address>
 	</Hotel>
 
 	<Hotel>
@@ -139,8 +141,7 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>Hilton Vacation Club</Name>
-		<Name>Cedar Breaks Brian Head</Name>
+		<Name>Hilton Vacation Club Cedar Breaks Brian Head</Name>
 		<Phone>435-677-3000</Phone>
 		<Address>
 			<Number>223</Number>
@@ -149,7 +150,7 @@
 			<State>UT</State>
 			<Zip>84719</Zip>
 			<NearestAirport>Parowan Airport</NearestAirport>
-		</Address>
+		
 		<Rating>4.2</Rating>
 	</Hotel>
 
