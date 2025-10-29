@@ -1,43 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<Hotel xmlns="https://agsanchez10.github.io/Table.For.One/"
+<Hotels xmlns="https://agsanchez10.github.io/Table.For.One/"
 		xmlns:bs="https://agsanchez10.github.io/Table.For.One/"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://agsanchez10.github.io/Table.For.One/Hotels.xsd">
 
-	<Hotel Rating="4.2">
+	<Hotel>
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address>
 			<Number>11</Number>
 			<Street>E. 7th St</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
+			<_NearestAirport>Sky Harbor</_NearestAirport>
 		</Address>
+		<_Rating>4.2</_Rating>
 	</Hotel>
 
-	<Hotel Rating="4.7">
+	<Hotel>
 		<Name>Hilton North Scottsdale at Cavasson</Name>
-		<Phone>480-648-1500</Phone>
-		<Address NearestAirport="Scottsdale Airport">
+		<Phone></Phone>
+		<Address>
 			<Number>7965</Number>
 			<Street>E. Cavasson Blvd</Street>
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85255</Zip>
+			<_NearestAirport>Scottsdale Airport</_NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel>
-		<Name>Arizona Grand Resort and Spa</Name>		
-		<Address NearestAirport="Sky Harbor">
+		<Name>Arizona Grand Resort and Spa</Name>
+		<Phone>877-800-4888</Phone>
+		<Address>
 			<Number>8000</Number>
 			<Street>South Arizona Grand E</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85044</Zip>
+			<_NearestAirport>Sky Harbor</_NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -50,93 +55,106 @@
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
+			<_NearestAirport>Sky Harbor</_NearestAirport>
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.4">
-		<Name>Hampton Inn Queen Creek</Name>
+	<Hotel>
+		<Name>Hampton Inn</Name>
+		<Name>Queen Creek</Name>
 		<Phone>480-888-7474</Phone>
-		<Address NearestAirport="Mesa Gateway Airport">
+		<Address>
 			<Number>20768</Number>
 			<Street>E. Maya Rd</Street>
 			<City>Queen Creek</City>
 			<State>AZ</State>
 			<Zip>85142</Zip>
+			<_NearestAirport>Mesa Gateway Airport</_NearestAirport>
 		</Address>
+		<_Rating>4.4</_Rating>
 	</Hotel>
 
 	<Hotel>
-		<Name>The Ritz-Carlton</Name>
-		<Name>Dove Mountain</Name>
+		<Name>The Ritz-Carlton, Dove Mountain</Name>
 		<Phone>520-572-3000</Phone>
-		<Address NearestAirport="Tucson International Airport">
+		<Address>
 			<Number>15000</Number>
 			<Street>N. Secret Springs Dr</Street>
 			<City>Marana</City>
 			<State>AZ</State>
 			<Zip>85658</Zip>
+			<_NearestAirport></_NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel>
 		<Name>Basecamp at Snowbowl</Name>
 		<Phone>928-774-0729</Phone>
-		<Address NearestAirport="Flagstaff Pulliam Airport">
+		<Address>
 			<Number>6355</Number>
 			<Street>US-180</Street>
 			<City>Flagstaff</City>
 			<State>AZ</State>
 			<Zip>86001</Zip>
+			<_NearestAirport>Flagstaff Pulliam Airport</_NearestAirport>
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.5">
+	<Hotel>
 		<Name>Purgatory Resort</Name>
 		<Phone>970-247-9000</Phone>
-		<Address NearestAirport="Durango-La Plata County Airport">
+		<Address>
 			<Number>1</Number>
 			<Street>Skier Pl</Street>
 			<City>Durango</City>
 			<State>CO</State>
 			<Zip>81301</Zip>
+			<_NearestAirport>Durango-La Plata County Airport</_NearestAirport>
 		</Address>
+		<_Rating>4.5</_Rating>
 	</Hotel>
 
 	<Hotel>
 		<Name>Salt Lake Marriott Downtown at City Creek</Name>
 		<Phone>801-531-0800</Phone>
-		<Address NearestAirport="Salt Lake City International Airport">
+		<Address>
 			<Number>75</Number>
 			<Street>S. W. Temple St</Street>
 			<City>Salt Lake City</City>
 			<State>UT</State>
 			<Zip>84101</Zip>
+			<_NearestAirport>Salt Lake City International Airport</_NearestAirport>
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.2">
+	<Hotel>
 		<Name>Embassy Suites by Hilton Salt Lake West Valley City</Name>
 		<Phone>801-963-4760</Phone>
-		<Address NearestAirport="Salt Lake City International Airport">
+		<Address>
 			<Number>3524</Number>
 			<Street>Market St</Street>
 			<City>West Valley City</City>
 			<State>UT</State>
 			<Zip>84119</Zip>
+			<_NearestAirport>Salt Lake City International Airport</_NearestAirport>
 		</Address>
+		<_Rating>4.2</_Rating>
 	</Hotel>
 
-	<Hotel Rating="4.2">
+	<Hotel>
 		<Name>Hilton Vacation Club Cedar Breaks Brian Head</Name>
 		<Phone>435-677-3000</Phone>
-		<Address NearestAirport="Parowan Airport">
+		<Address>
 			<Number>223</Number>
 			<Street>W Hunter Rdg Dr</Street>
 			<City>Brian Head</City>
 			<State>UT</State>
-			<Zip>84719</Zip>		
+			<Zip>84719</Zip>
+			<_NearestAirport>Parowan Airport</_NearestAirport>
+		</Address>
+		<_Rating>4.2</_Rating>
 	</Hotel>
 
 
 
-</Hotel>
+</Hotels>
