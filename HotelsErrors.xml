@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<Hotels xmlns="https://agsanchez10.github.io/Table.For.One/"
+<Hotels xmlns="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
 		xmlns:bs="https://agsanchez10.github.io/Table.For.One/Hotels.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://agsanchez10.github.io/Table.For.One/Hotels.xsd">
@@ -21,8 +21,7 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>Hilton North Scottsdale at Cavasson</Name>
-		<Phone>480-648-1500</Phone>
+		<Name>Hilton North Scottsdale at Cavasson</Name>		
 		<Address>
 			<Number>7965</Number>
 			<Street>E. Cavasson Blvd</Street>
@@ -42,7 +41,8 @@
 			<Street>South Arizona Grand E</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
-			<Zip>85044</Zip>			
+			<Zip>85044</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -87,7 +87,8 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>Basecamp at Snowbowl</Name>		
+		<Name>Basecamp at Snowbowl</Name>
+		<Phone>928-774-0729</Phone>
 		<Address>
 			<Number>6355</Number>
 			<Street>US-180</Street>
@@ -113,8 +114,7 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>Salt Lake Marriott</Name>
-		<Name>Downtown at City Creek</Name>
+		<Name>Salt Lake Marriott Downtown at City Creek</Name>
 		<Phone>801-531-0800</Phone>
 		<Address>
 			<Number>75</Number>
@@ -156,6 +156,4 @@
 
 
 
-
 </Hotels>
-
