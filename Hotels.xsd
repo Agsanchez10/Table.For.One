@@ -9,7 +9,7 @@
 	<element name="Hotels">
 		<complexType>
 			<sequence>
-				<element ref="hs:Hotel" minOccurs="1" maxOccurs="unbounded"/>
+				<element ref="bs:Hotel" minOccurs="1" maxOccurs="unbounded"/>
 			</sequence>
 		</complexType>
 	</element>
