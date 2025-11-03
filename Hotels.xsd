@@ -3,13 +3,13 @@
 	xmlns="http://www.w3.org/2001/XMLSchema"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://agsanchez10.github.io/Table.For.One/"
-	xmlns:bs="https://agsanchez10.github.io/Table.For.One/"
+	xmlns:hs="https://agsanchez10.github.io/Table.For.One/"
     elementFormDefault="qualified"
 	attributeFormDefault="unqualified">
 	<element name="Hotels">
 		<complexType>
 			<sequence>
-				<element ref="bs:Hotel" minOccurs="1" maxOccurs="unbounded"/>
+				<element ref="hs:Hotel" minOccurs="1" maxOccurs="unbounded"/>
 			</sequence>
 		</complexType>
 	</element>
@@ -21,6 +21,7 @@
 				<element name="Address" minOccurs="1" maxOccurs="1"/>
 				<element name="_Rating" type="xsd:string" minOccurs="0" maxOccurs="1"/>
 			</sequence>
+			<attribute name="Rating" type="xsd:string" use="optional"/>
 		</complexType>
 	</element>
 	<element name="Address">
@@ -33,6 +34,7 @@
 				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="_NearestAirport" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 			</sequence>
+			<attribute name="NearestAirport" type="xsd:string" use="required"/> 
 		</complexType>		
 	</element>
 </schema>
