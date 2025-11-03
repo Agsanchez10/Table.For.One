@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Hotel xmlns="https://agsanchez10.github.io/Table.For.One/"
-		xmlns:hs="https://agsanchez10.github.io/Table.For.One/"
+		xmlns:bs="https://agsanchez10.github.io/Table.For.One/"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://agsanchez10.github.io/Table.For.One/Hotels.xsd">
 
@@ -136,6 +136,7 @@
 			<State>UT</State>
 			<Zip>84719</Zip>		
 	</Hotel>
+
 
 
 
